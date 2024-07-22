@@ -23,4 +23,7 @@ esta es mi configuracion personal de qtile, les dejo el codigo para que la pueda
 
 en el case del archivo de autostart.sh solo debes de asegurarte que teenga permisos de ejecusion, esto en caso bno se ejecute el comando de la bash
 
-''' chmod +x ~/.config/qtile/autostart.sh '''
+```sh
+chmod +x ~/.config/qtile/autostart.sh
+```
+
