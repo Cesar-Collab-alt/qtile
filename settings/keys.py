@@ -11,7 +11,12 @@ keys = [
     # Show file manager
     Key([mod], "e", lazy.spawn("pcmanfm"), desc="Open new browser window"),
     # Show menu
+<<<<<<< HEAD
     Key([mod], "m", lazy.spawn("bash /home/cesar/.config/rofi/launchers/type-7/launcher.sh"), desc="Abrir menu"),
+=======
+    #Key([mod], "m", lazy.spawn("bash /home/cesar/.config/rofi/launchers/type-7/launcher.sh"), desc="Abrir menu"),
+    Key([mod], "m", lazy.spawn("rofi -show drun"), desc="Abrir menu"),
+>>>>>>> b8a5ca1 (change bar)
     # Switch between windows
     Key([mod], "a", lazy.layout.left(), desc="Move focus to left"),
     Key([mod], "d", lazy.layout.right(), desc="Move focus to right"),
